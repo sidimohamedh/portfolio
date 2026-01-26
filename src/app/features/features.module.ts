@@ -7,6 +7,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { ContactComponent } from './components/contact/contact.component';
     TestimonialsComponent,
     ContactComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   exports: [
     HomeComponent,
     ExperienceComponent,

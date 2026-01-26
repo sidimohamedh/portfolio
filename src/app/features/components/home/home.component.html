@@ -1,82 +1,23 @@
 <!-- القسم التعريفي -->
 <header>
     <div>
-    <h1>مصمم <span>واجهات أمامية</span></h1>
-    <p>
-        مصمم واجهات أمامية مبدع، متخصص في بناء واجهات حديثة،
-        وحركات بصرية سلسة، وتجارب مستخدم عالية الجودة.
-    </p>
+    <h1 [innerHTML]="'basic-info.title' | translate"></h1>
+    <p [innerHTML]="'basic-info.description' | translate"></p>
     <div class="skills">
         <div class="badge">HTML</div>
         <div class="badge">CSS / Animations</div>
         <div class="badge">JavaScript</div>
         <div class="badge">UI/UX</div>
     </div>
-    <!-- 
-        هل هناك حاجة لإظهار Frontend Framworks التي استخدمتها؟
-    -->
     <div class="actions">
-        <a href="cv.pdf" class="dwnload-btn" download>تحميل السيرة الذاتية (PDF)</a>
-        <a href="fr.html" class="btn secondary">FR</a>
-        <a href="index.html" class="btn secondary">EN</a>
+        <a href="cv.pdf" class="dwnload-btn" download>{{ 'basic-info.download-cv' | translate }}</a>
+        <a class="btn secondary" *ngIf="this.currentLang !== 'fr'" (click)="changeLang('fr')">FR</a>
+        <a class="btn secondary" *ngIf="this.currentLang !== 'en'" (click)="changeLang('en')">EN</a>
+        <a class="btn secondary" *ngIf="this.currentLang !== 'ar'" (click)="changeLang('ar')">AR</a>
     </div>
     </div>
 
     <div class="avatar">
     <img src="https://placehold.co/400" alt="الصورة الشخصية" />
-    </div>
-</header>
-
-<!-- Fr -->
- <!-- SECTION HERO -->
-<header>
-    <div>
-    <h1>Designer <span>Frontend</span></h1>
-    <p>
-        Designer frontend créatif, spécialisé dans les interfaces modernes,
-        les animations et les expériences utilisateur de haute qualité.
-    </p>
-    <div class="skills">
-        <div class="badge">HTML</div>
-        <div class="badge">CSS / Animations</div>
-        <div class="badge">JavaScript</div>
-        <div class="badge">UI/UX</div>
-    </div>
-    <div class="actions">
-        <a href="cv.pdf" class="dwnload-btn" download>Télécharger le CV (PDF)</a>
-        <a href="index.html" class="btn secondary">EN</a>
-        <a href="ar.html" class="btn secondary">AR</a>
-    </div>
-    </div>
-
-    <div class="avatar">
-    <img src="https://placehold.co/400" alt="Profil" />
-    </div>
-</header>
-
-<!-- En -->
- <!-- HERO -->
-<header>
-    <div>
-    <h1>Frontend <span>Designer</span></h1>
-    <p>
-        Creative frontend designer specialized in modern interfaces,
-        animations, and high-quality user experiences.
-    </p>
-    <div class="skills">
-        <div class="badge">HTML</div>
-        <div class="badge">CSS / Animations</div>
-        <div class="badge">JavaScript</div>
-        <div class="badge">UI/UX</div>
-    </div>
-    <div class="actions">
-        <a href="cv.pdf" class="dwnload-btn" download>Download CV (PDF)</a>
-        <a href="fr.html" class="btn secondary">FR</a>
-        <a href="ar.html" class="btn secondary">AR</a>
-    </div>
-    </div>
-
-    <div class="avatar">
-    <img src="https://placehold.co/400" alt="Profile" />
     </div>
 </header>
