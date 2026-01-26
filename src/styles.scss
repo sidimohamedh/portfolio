@@ -49,9 +49,37 @@ body.light .toggle{position:fixed;top:20px;right:20px;background:rgba(15,23,42,0
 section{margin-top:100px;animation:fadeUp 1s}
 section h2{font-size:2rem;margin-bottom:30px;position:relative}
 section h2::after{content:"";position:absolute;bottom:-8px;left:0;width:60px;height:4px;background:var(--primary)}
+[dir="rtl"] section h2::after{
+    content:"";
+    position:absolute;
+    bottom:-8px;
+    left:none;
+    right:0;
+    width:60px;
+    height:4px;
+    background:var(--primary)
+}
 .timeline{border-left:3px solid var(--primary);padding-left:30px;display:grid;gap:30px}
+/* RTL override */
+[dir="rtl"] .timeline {
+  border-left: none;       /* remove left border */
+  border-right: 3px solid var(--primary); /* add right border */
+  padding-left: 0;
+  padding-right: 30px;
+}
 .time-item{background:var(--glass-dark);backdrop-filter:blur(14px);padding:20px;border-radius:16px;position:relative}
 .time-item::before{content:"";position:absolute;left:-39px;top:20px;width:16px;height:16px;background:var(--primary);border-radius:50%}
+[dir="rtl"] .time-item::before{
+    content:"";
+    position:absolute;
+    left: none;
+    right:-39px;
+    top:20px;
+    width:16px;
+    height:16px;
+    background:var(--primary);
+    border-radius:50%
+}
 .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
 .project{background:var(--glass-dark);backdrop-filter:blur(14px);padding:20px;border-radius:18px;transition:.4s}
 .project:hover{transform:translateY(-10px)}

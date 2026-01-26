@@ -1,0 +1,73 @@
+{
+    "basic-info": {
+        "title": "Designer <span>Frontend</span>",
+        "description": "Designer frontend créatif, spécialisé dans les interfaces modernes, les animations et les expériences utilisateur de haute qualité.",
+        "download-cv": "Télécharger le CV (PDF)"
+    },
+    "experience": {
+        "title": "Expérience",
+        "header": "Designer Frontend Senior",
+        "description": "2022 – Présent · Systèmes de design, animations, architecture UI",
+        "second-header": "Développeur Frontend",
+        "second-description": "2022 – 2025 · Pages d’atterrissage, tableaux de bord, optimisation des performances"
+    },
+    "projects": {
+        "title": "Projets",
+        "header": "Page d’atterrissage",
+        "description": "Page d’atterrissage moderne à fort taux de conversion avec des animations fluides.",
+        "second-header": "Interface Dashboard",
+        "second-description": "Interface de tableau de bord propre, moderne et évolutive."
+    },
+    "services": {
+        "title": "Comment pouvons-nous vous aider?",
+        "header": "Consultations initiales",
+        "description": "Comprendre vos besoins et vos défis avant toute décision technique ou de design.",
+
+        "second-header": "Transformer l’idée en direction",
+        "second-description": "Nous vous aidons à structurer une idée claire qui sert vos objectifs et vos missions.",
+
+        "third-header": "Discussion autour du cœur de l’idée",
+        "third-description": "Analyse approfondie et réflexion avant l’exécution pour garantir les bonnes décisions.",
+
+        "fourth-header": "Faire connaissance avant l’engagement",
+        "fourth-description": "Un espace ouvert pour échanger et s’évaluer mutuellement, sans pression."
+    },
+    "skills": {
+        "title": "Compétences",
+        "header": "Frontend",
+        "skill-1": "HTML / CSS",
+        "skill-2": "JavaScript / TypeScript",
+        "skill-3": "React / Angular",
+        "skill-4": "UI / UX Design",
+        "skill-5": "Animations",
+        "second-header": "Backend",
+        "skill-6": "NestJS",
+        "skill-7": "SQL",
+        "skill-8": "Bases de données"
+    },
+    "testimonials": {
+        "title": "Témoignages",
+        "description": "“Travailler avec le designer nous a permis de lancer notre projet rapidement avec une excellente expérience utilisateur.”",
+        "persone-name": "- Ahmed, Chef de projet",
+
+        "second-description": "“La collaboration a amélioré notre interface et rendu nos tableaux de bord intuitifs.”",
+        "second-persone-name": "- Sarah, Product Manager",
+
+        "third-description": "“Le designer a transformé notre idée en une interface moderne et efficace.”",
+        "third-persone-name": "- Julien, Chef de projet"
+    },
+    "contact": {
+        "title": "Contact",
+        "inquiry": "Vous avez un projet, une idée ou une question ? Parlons-en!",
+        "label-name": "Nom",
+        "label-number": "Numéro de téléphone",
+        "label-message": "Votre message",
+        "sd-button": "Envoyer",
+        "email-label": "Email",
+        "WhatsApp-label": "Discuter maintenant",
+        "linkedin-label": "Mon profil"
+    },
+    "footer": {
+        "title": "© 2026 Portfolio d’un Designer Front-End"
+    }
+}

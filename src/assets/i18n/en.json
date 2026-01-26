@@ -1,0 +1,73 @@
+{
+    "basic-info": {
+        "title": "Frontend <span>Designer</span>",
+        "description": "Creative frontend designer specialized in modern interfaces, animations, and high-quality user experiences.",
+        "download-cv": "Download CV (PDF)"
+    },
+    "experience": {
+        "title": "Experience",
+        "header": "Senior Frontend Designer",
+        "description": "2025 – Present · Design systems, animations, UI architecture",
+        "second-header": "Frontend Developer",
+        "second-description": "2022 – 2025 · Landing pages, dashboards, performance optimization"
+    },
+    "projects": {
+        "title": "Projects",
+        "header": "Landing Page",
+        "description": "High-conversion modern landing page with smooth animations.",
+        "title-header": "Dashboard UI",
+        "second-description": "Clean and scalable dashboard interface."
+    },
+    "services": {
+        "title": "How Can We Help You?",
+        "header": "Initial Consultations",
+        "description": "Understanding your needs and challenges before any technical or design decision.",
+
+        "second-header": "Turning Ideas into Direction",
+        "second-description": "We help you shape a clear idea that serves your tasks and achieves your goals.",
+
+        "third-header": "Core Idea Discussions",
+        "third-description": "Deep analysis and thoughtful discussion before execution to ensure the right decisions.",
+
+        "fourth-header": "Getting to Know Each Other First",
+        "fourth-description": "An open space for discussion and mutual evaluation with no pressure or commitment."
+    },
+    "skills": {
+        "title": "Skills",
+        "header": "Frontend",
+        "skill-1": "HTML / CSS",
+        "skill-2": "JavaScript / TypeScript",
+        "skill-3": "React / Angular",
+        "skill-4": "UI / UX Design",
+        "skill-5": "Animations",
+        "second-header": "Backend",
+        "skill-6": "NestJS",
+        "skill-7": "SQL",
+        "skill-8": "Databases"
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "description": "“Working with the designer helped us launch our project quickly with a great user experience.”",
+        "persone-name": "- Ahmed, Project Manager",
+
+        "second-description": "“Working with this frontend designer improved our interface and made our dashboards intuitive.”",
+        "second-persone-name": "- Sarah, Product Manager",
+
+        "third-description": "“The designer transformed our idea into a modern and efficient interface.”",
+        "third-persone-name": "- Julien, Project Lead"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "inquiry": "Do you have a project, an idea, or a question? Let’s talk!",
+        "label-name": "Name",
+        "label-number": "Phone Number",
+        "label-message": "Your Message",
+        "sd-button": "Send",
+        "email-label": "Email",
+        "WhatsApp-label": "Chat Now",
+        "linkedin-label": "My Profile"
+    },
+    "footer": {
+        "title": "© 2026 Front-End Designer Portfolio"
+    }
+}

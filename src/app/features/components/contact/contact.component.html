@@ -1,66 +1,22 @@
 <!-- اتصال -->
 <section class="contact">
-    <h2>تواصل معنا</h2>
-    <p>هل لديك مشروع أو فكرة أو استفسار؟ دعنا نتحدث!</p>
+    <h2>{{'contact.title' | translate}}</h2>
+    <p>{{'contact.inquiry' | translate}}</p>
 
     <div class="contact-grid">
         <!-- نموذج الاتصال -->
         <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="الاسم" required>
-            <input type="number" name="number" placeholder="رقم الجوال" required>
-            <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+            <input type="text" name="name" placeholder="{{'contact.label-name' | translate}}" required>
+            <input type="number" name="number" placeholder="{{'contact.label-number' | translate}}" required>
+            <textarea name="message" rows="5" placeholder="{{'contact.label-message' | translate}}" required></textarea>
             <button type="submit">إرسال</button>
         </form>
 
         <!-- معلومات التواصل البديلة -->
         <div class="contact-info">
-        <p>📧 البريد الإلكتروني: <a href="mailto:youremail&#64;example.com">youremail&#64;example.com</a></p>
-        <p>📱 WhatsApp: <a href="https://wa.me/xxxxxxxx" target="_blank">تواصل الآن</a></p>
-        <p>🌐 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">ملفي الشخصي</a></p>
-        </div>
-    </div>
-</section>
-
-<!-- Fr -->
-<!-- CONTACT -->
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Vous avez un projet, une idée ou une question ? Parlons-en !</p>
-
-    <div class="contact-grid">
-        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Nom" required>
-        <input type="number" name="number" placeholder="Numéro de téléphone" required>
-        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
-        <button type="submit">Envoyer</button>
-        </form>
-
-        <div class="contact-info">
-        <p>📧 Email : <a href="mailto:youremail&#64;example.com">youremail&#64;example.com</a></p>
-        <p>📱 WhatsApp : <a href="https://wa.me/xxxxxxxx" target="_blank">Discuter maintenant</a></p>
-        <p>🌐 LinkedIn : <a href="https://linkedin.com/in/yourprofile" target="_blank">Mon profil</a></p>
-        </div>
-    </div>
-</section>
-
-<!-- En -->
-<!-- CONTACT -->
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p>Do you have a project, an idea, or a question? Let’s talk!</p>
-
-    <div class="contact-grid">
-        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="number" name="number" placeholder="Phone Number" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-        </form>
-
-        <div class="contact-info">
-        <p>📧 Email: <a href="mailto:youremail&#64;example.com">youremail&#64;example.com</a></p>
-        <p>📱 WhatsApp: <a href="https://wa.me/xxxxxxxx" target="_blank">Chat Now</a></p>
-        <p>🌐 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">My Profile</a></p>
+        <p>📧 {{'contact.email-label' | translate}}: <a href="mailto:youremail&#64;example.com">youremail&#64;example.com</a></p>
+        <p>📱 WhatsApp: <a href="https://wa.me/xxxxxxxx" target="_blank">{{'contact.WhatsApp-label' | translate}}</a></p>
+        <p>🌐 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">{{'contact.linkedin-label' | translate}}</a></p>
         </div>
     </div>
 </section>

@@ -1,0 +1,73 @@
+{
+    "basic-info": {
+        "title": "مصمم <span>واجهات أمامية</span>",
+        "description": "مصمم واجهات أمامية مبدع، متخصص في بناء واجهات حديثة، وحركات بصرية سلسة، وتجارب مستخدم عالية الجودة.",
+        "download-cv": "تحميل السيرة الذاتية (PDF)"
+    },
+    "experience": {
+        "title": "الخبرة",
+        "header": "مصمم واجهات أمامية أول",
+        "description": "2022 – حتى الآن · أنظمة التصميم، الحركات البصرية، هيكلة الواجهات",
+        "second-header": "مطور واجهات أمامية",
+        "second-description": "2022 – 2025 · صفحات الهبوط، لوحات التحكم، تحسين الأداء"
+    },
+    "projects": {
+        "title": "الأعمال",
+        "header": "صفحة هبوط",
+        "description": "صفحة هبوط عصرية ذات معدل تحويل مرتفع مع حركات سلسة.",
+        "second-header": "واجهة لوحة تحكم",
+        "second-description": "واجهة لوحة تحكم نظيفة وقابلة للتوسع."
+    },
+    "services": {
+        "title": "كيف يمكننا مساعدتك؟",
+        "header": "استشارات أولية",
+        "description": "فهم احتياجاتك والتحديات التي تواجهك قبل أي قرار تقني أو تصميمي.",
+
+        "second-header": "تحويل الفكرة إلى اتجاه",
+        "second-description": "نساعدك على صياغة فكرة واضحة تخدم مهامك وتحقق هدفك.",
+
+        "third-header": "نقاش جوهر الفكرة",
+        "third-description": "تحليل وتفكير عميق قبل التنفيذ لضمان قرارات صحيحة.",
+
+        "fourth-header": "تعارف قبل الالتزام",
+        "fourth-description": "مساحة مفتوحة للنقاش والتقييم المتبادل بدون ضغط."
+    },
+    "skills": {
+        "title": "المهارات",
+        "header": "الواجهة الأمامية",
+        "skill-1": "HTML / CSS",
+        "skill-2": "JavaScript / TypeScript",
+        "skill-3": "React / Angular",
+        "skill-4": "UI / UX Design",
+        "skill-5": "Animations",
+        "second-header": "الواجهة الخلفية",
+        "skill-6": "NestJS",
+        "skill-7": "SQL",
+        "skill-8": "قواعد البيانات"
+    },
+    "testimonials": {
+        "title": "آراء العملاء",
+        "description": "“التعاون مع المصمم ساعدنا على إطلاق مشروعنا بسرعة مع تجربة مستخدم رائعة.”",
+        "persone-name": "- أحمد، مدير مشروع",
+
+        "second-description": "“Working with this frontend designer improved our interface and made our dashboards intuitive.”",
+        "second-persone-name": "- Sarah, Product Manager",
+
+        "third-description": "“Le designer a transformé notre idée en une interface moderne et efficace.”",
+        "third-persone-name": "- Julien, Chef de projet"
+    },
+    "contact": {
+        "title": "تواصل معنا",
+        "inquiry": "هل لديك مشروع أو فكرة أو استفسار؟ دعنا نتحدث!",
+        "label-name": "الاسم",
+        "label-number": "رقم الجوال",
+        "label-message": "رسالتك",
+        "sd-button": "إرسال",
+        "email-label": "البريد الإلكتروني",
+        "WhatsApp-label": "تواصل الآن",
+        "linkedin-label": "ملفي الشخصي"
+    },
+    "footer": {
+        "title": "© 2026 ملف أعمال مصمم واجهات أمامية"
+    }
+}
