@@ -67,7 +67,7 @@ section h2::after{content:"";position:absolute;bottom:-8px;left:0;width:60px;hei
   padding-left: 0;
   padding-right: 30px;
 }
-.time-item{background:var(--glass-dark);backdrop-filter:blur(14px);padding:20px;border-radius:16px;position:relative}
+.time-item{backdrop-filter:blur(14px);padding:20px;border-radius:16px;position:relative}
 .time-item::before{content:"";position:absolute;left:-39px;top:20px;width:16px;height:16px;background:var(--primary);border-radius:50%}
 [dir="rtl"] .time-item::before{
     content:"";
@@ -81,7 +81,7 @@ section h2::after{content:"";position:absolute;bottom:-8px;left:0;width:60px;hei
     border-radius:50%
 }
 .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
-.project{background:var(--glass-dark);backdrop-filter:blur(14px);padding:20px;border-radius:18px;transition:.4s}
+.project{backdrop-filter:blur(14px);padding:20px;border-radius:18px;transition:.4s}
 .project:hover{transform:translateY(-10px)}
 .project img{max-height: 100%;width: 100%;}
 body.light .project,
@@ -92,7 +92,7 @@ body.light .testimonial-card {
 }
 body.dark .project,
 body.dark .time-item,
-body.dark .service-card
+body.dark .service-card,
 body.dark .testimonial-card {
     border: 1px solid rgba(255,255,255,0.08);
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { FeaturesService } from '../../services/services.service';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,11 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class HomeComponent {
   currentLang: string = this.translate.currentLang;
-  constructor(private translate: TranslateService) {
+
+  constructor(
+    private translate: TranslateService,
+    private featuresService: FeaturesService,
+  ) {
     translate.addLangs(['en', 'ar']);
     translate.setDefaultLang('en');
 
@@ -20,5 +25,12 @@ export class HomeComponent {
     this.translate.use(lang);
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     this.currentLang = lang;
+  }
+
+  generatePdf(lang: string) {
+    // Generate the PDF file from lang
+    this.featuresService.generatePdf(lang).subscribe((res) => {
+      // console.log('res: ', res);
+    });
   }
 }
