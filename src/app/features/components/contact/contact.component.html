@@ -5,10 +5,10 @@
 
     <div class="contact-grid">
         <!-- نموذج الاتصال -->
-        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="{{'contact.label-name' | translate}}" required>
-            <input type="number" name="number" placeholder="{{'contact.label-number' | translate}}" required>
-            <textarea name="message" rows="5" placeholder="{{'contact.label-message' | translate}}" required></textarea>
+        <form (submit)="onSubmit()" [formGroup]="feedbackForm">
+            <input type="text" formControlName="name" placeholder="{{'contact.label-name' | translate}}" required>
+            <input type="text" formControlName="number" placeholder="{{'contact.label-number' | translate}}" required>
+            <textarea formControlName="message" rows="5" placeholder="{{'contact.label-message' | translate}}" required></textarea>
             <button type="submit">إرسال</button>
         </form>
 
@@ -20,3 +20,13 @@
         </div>
     </div>
 </section>
+
+<!-- Loading -->
+<div class="is_loader" *ngIf="loading">
+    <div class="loader"></div>
+</div>
+
+<!-- Toaster -->
+<div class="toast" *ngIf="toast.show">
+  {{ toast.message }}
+</div>

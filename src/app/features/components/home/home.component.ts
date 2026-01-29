@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { FeaturesService } from '../../services/services.service';
+import { ToastService } from '../../../shared/toast.service';
 
 @Component({
   selector: 'app-home',
@@ -10,9 +11,12 @@ import { FeaturesService } from '../../services/services.service';
 export class HomeComponent {
   currentLang: string = this.translate.currentLang;
 
+  loading = false;
+
   constructor(
     private translate: TranslateService,
     private featuresService: FeaturesService,
+    public toast: ToastService,
   ) {
     translate.addLangs(['en', 'ar']);
     translate.setDefaultLang('en');
@@ -28,9 +32,27 @@ export class HomeComponent {
   }
 
   generatePdf(lang: string) {
-    // Generate the PDF file from lang
-    this.featuresService.generatePdf(lang).subscribe((res) => {
-      // console.log('res: ', res);
+    this.loading = true;
+    this.featuresService.generatePdf(lang).subscribe({
+      next: (response) => {
+        const blob = response as Blob;
+        const url = window.URL.createObjectURL(blob);
+
+        const fileName = `${lang === 'ar' ? 'سيرة-ذاتية' : `CV-${lang}`}.pdf`;
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName;
+        a.click();
+        this.loading = false;
+        this.toast.open(
+          `${lang === 'ar' ? 'تم تحميل السيرة الذاتية بنجاح' : lang === 'fr' ? 'CV téléchargé avec succès' : 'CV downloaded successfully'}`,
+        );
+
+        window.URL.revokeObjectURL(url);
+      },
+      error: (err) => {
+        console.error('PDF error:', err);
+      },
     });
   }
 }

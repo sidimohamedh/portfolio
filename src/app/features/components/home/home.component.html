@@ -21,3 +21,13 @@
     <img src="https://placehold.co/400" alt="الصورة الشخصية" />
     </div>
 </header>
+
+<!-- Loading -->
+<div class="is_loader" *ngIf="loading">
+    <div class="loader"></div>
+</div>
+
+<!-- Toaster -->
+<div class="toast" *ngIf="toast.show">
+  {{ toast.message }}
+</div>
