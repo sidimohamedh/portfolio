@@ -8,6 +8,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { TranslateModule } from '@ngx-translate/core';
     TestimonialsComponent,
     ContactComponent,
   ],
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslateModule, ReactiveFormsModule],
   exports: [
     HomeComponent,
     ExperienceComponent,
