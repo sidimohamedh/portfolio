@@ -7,15 +7,15 @@
     "experience": {
         "title": "Experience",
         "header": "Senior Frontend Designer",
-        "description": "2025 – Present · Design systems, animations, UI architecture",
+        "description": "2026 – Present · Design systems, animations, UI architecture",
         "second-header": "Frontend Developer",
-        "second-description": "2022 – 2025 · Landing pages, dashboards, performance optimization"
+        "second-description": "2022 – 2026 · Landing pages, dashboards, performance optimization"
     },
     "projects": {
         "title": "Projects",
         "header": "Landing Page",
         "description": "High-conversion modern landing page with smooth animations.",
-        "title-header": "Dashboard UI",
+        "second-header": "Dashboard UI",
         "second-description": "Clean and scalable dashboard interface."
     },
     "services": {
@@ -65,6 +65,7 @@
         "sd-button": "Send",
         "email-label": "Email",
         "WhatsApp-label": "Chat Now",
+        "WhatsApp-message": "Hello%20%F0%9F%91%8B%0AI%20found%20you%20via%20your%20web%20portfolio.",
         "linkedin-label": "My Profile"
     },
     "footer": {
