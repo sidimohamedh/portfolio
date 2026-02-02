@@ -9,7 +9,7 @@
         "header": "Designer Frontend Senior",
         "description": "2022 – Présent · Systèmes de design, animations, architecture UI",
         "second-header": "Développeur Frontend",
-        "second-description": "2022 – 2025 · Pages d’atterrissage, tableaux de bord, optimisation des performances"
+        "second-description": "2022 – 2026 · Pages d’atterrissage, tableaux de bord, optimisation des performances"
     },
     "projects": {
         "title": "Projets",
@@ -65,6 +65,7 @@
         "sd-button": "Envoyer",
         "email-label": "Email",
         "WhatsApp-label": "Discuter maintenant",
+        "WhatsApp-message": "Bonjour%20%F0%9F%91%8B%0AJe%20vous%20ai%20trouv%C3%A9%20gr%C3%A2ce%20%C3%A0%20votre%20portfolio%20web.",
         "linkedin-label": "Mon profil"
     },
     "footer": {
