@@ -44,7 +44,7 @@ h1{font-size:3rem}h1 span{color:var(--primary)}p{opacity:.85;line-height:1.7}
 }
 .btn.secondary{background:transparent;border:1px solid var(--primary)}
 .btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.3)}
-.toggle{position:fixed;top:20px;right:20px;background:var(--glass-dark);backdrop-filter:blur(12px);padding:8px 14px;border-radius:30px;cursor:pointer}
+.toggle{position:fixed;top:20px;right:20px;background:var(--glass-dark);backdrop-filter:blur(12px);padding:8px 14px;border-radius:30px;cursor:pointer;z-index:1000;}
 body.light .toggle{position:fixed;top:20px;right:20px;background:rgba(15,23,42,0.08);backdrop-filter:blur(12px);padding:8px 14px;border-radius:30px;cursor:pointer}
 section{margin-top:100px;animation:fadeUp 1s}
 section h2{font-size:2rem;margin-bottom:30px;position:relative}
@@ -326,6 +326,7 @@ footer{text-align:center;margin-top:120px;opacity:.6}
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
 }
 .loader {
   width: 40px;

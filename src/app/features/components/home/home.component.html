@@ -10,7 +10,7 @@
         <div class="badge">UI/UX</div>
     </div>
     <div class="actions">
-        <a class="dwnload-btn" download (click)="generatePdf(this.currentLang)">{{ 'basic-info.download-cv' | translate }}</a>
+        <a class="dwnload-btn" download [href]="generatePdf(this.currentLang)" (click)="downloadCv(this.currentLang)">{{ 'basic-info.download-cv' | translate }}</a>
         <a class="btn secondary" *ngIf="this.currentLang !== 'fr'" (click)="changeLang('fr')">FR</a>
         <a class="btn secondary" *ngIf="this.currentLang !== 'en'" (click)="changeLang('en')">EN</a>
         <a class="btn secondary" *ngIf="this.currentLang !== 'ar'" (click)="changeLang('ar')">AR</a>
