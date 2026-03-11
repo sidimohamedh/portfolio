@@ -32,7 +32,7 @@ export class ContactComponent {
 
   onSubmit() {
     this.loading = true;
-    this.FeaturesService.feedback(this.feedbackForm.value).subscribe({
+    this.FeaturesService.contact(this.feedbackForm.value).subscribe({
       next: (response) => {
         this.loading = false;
         if (response.message_status) {

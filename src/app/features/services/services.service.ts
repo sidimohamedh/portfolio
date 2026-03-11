@@ -23,9 +23,9 @@ export class FeaturesService {
     );
   }
 
-  feedback(data: any) {
+  contact(data: any) {
     return this.http.post<ApiSuccessResponse<Message>>(
-      `${this.baseUrl}/feedback`,
+      `${this.baseUrl}/contact`,
       data,
     );
   }
