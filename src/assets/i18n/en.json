@@ -1,12 +1,12 @@
 {
     "basic-info": {
-        "title": "Frontend <span>Designer</span>",
-        "description": "Creative frontend designer specialized in modern interfaces, animations, and high-quality user experiences.",
+        "title": "Frontend <span>Developer</span>",
+        "description": "Creative frontend Developer specialized in modern interfaces, animations, and high-quality user experiences.",
         "download-cv": "Download CV (PDF)"
     },
     "experience": {
         "title": "Experience",
-        "header": "Senior Frontend Designer",
+        "header": "Senior Frontend Developer",
         "description": "2026 – Present · Design systems, animations, UI architecture",
         "second-header": "Frontend Developer",
         "second-description": "2022 – 2026 · Landing pages, dashboards, performance optimization"
@@ -47,13 +47,13 @@
     },
     "testimonials": {
         "title": "Testimonials",
-        "description": "“Working with the designer helped us launch our project quickly with a great user experience.”",
+        "description": "“Working with the Developer helped us launch our project quickly with a great user experience.”",
         "persone-name": "- Ahmed, Project Manager",
 
-        "second-description": "“Working with this frontend designer improved our interface and made our dashboards intuitive.”",
+        "second-description": "“Working with this frontend Developer improved our interface and made our dashboards intuitive.”",
         "second-persone-name": "- Sarah, Product Manager",
 
-        "third-description": "“The designer transformed our idea into a modern and efficient interface.”",
+        "third-description": "“The Developer transformed our idea into a modern and efficient interface.”",
         "third-persone-name": "- Julien, Project Lead"
     },
     "contact": {
@@ -64,11 +64,11 @@
         "label-message": "Your Message",
         "sd-button": "Send",
         "email-label": "Email",
-        "WhatsApp-label": "Chat Now",
+        "WhatsApp-label": "WhatsApp Now",
         "WhatsApp-message": "Hello%20%F0%9F%91%8B%0AI%20found%20you%20via%20your%20web%20portfolio.",
         "linkedin-label": "My Profile"
     },
     "footer": {
-        "title": "© 2026 Front-End Designer Portfolio"
+        "title": "© 2026 Front-End Developer Portfolio"
     }
 }
