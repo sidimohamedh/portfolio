@@ -1,12 +1,12 @@
 {
     "basic-info": {
-        "title": "مصمم <span>واجهات أمامية</span>",
-        "description": "مصمم واجهات أمامية مبدع، متخصص في بناء واجهات حديثة، وحركات بصرية سلسة، وتجارب مستخدم عالية الجودة.",
+        "title": "مطور <span>واجهات أمامية</span>",
+        "description": "مطور واجهات أمامية مبدع، متخصص في بناء واجهات حديثة، وحركات بصرية سلسة، وتجارب مستخدم عالية الجودة.",
         "download-cv": "تحميل السيرة الذاتية (PDF)"
     },
     "experience": {
         "title": "الخبرة",
-        "header": "مصمم واجهات أمامية أول",
+        "header": "مطور واجهات أمامية أول",
         "description": "2022 – حتى الآن · أنظمة التصميم، الحركات البصرية، هيكلة الواجهات",
         "second-header": "مطور واجهات أمامية",
         "second-description": "2022 – 2026 · صفحات الهبوط، لوحات التحكم، تحسين الأداء"
@@ -47,13 +47,13 @@
     },
     "testimonials": {
         "title": "آراء العملاء",
-        "description": "“التعاون مع المصمم ساعدنا على إطلاق مشروعنا بسرعة مع تجربة مستخدم رائعة.”",
+        "description": "“التعاون مع المطور ساعدنا على إطلاق مشروعنا بسرعة مع تجربة مستخدم رائعة.”",
         "persone-name": "- أحمد، مدير مشروع",
 
-        "second-description": "“Working with this frontend designer improved our interface and made our dashboards intuitive.”",
+        "second-description": "“Working with this frontend Developer improved our interface and made our dashboards intuitive.”",
         "second-persone-name": "- Sarah, Product Manager",
 
-        "third-description": "“Le designer a transformé notre idée en une interface moderne et efficace.”",
+        "third-description": "“Le Developer a transformé notre idée en une interface moderne et efficace.”",
         "third-persone-name": "- Julien, Chef de projet"
     },
     "contact": {
@@ -64,11 +64,11 @@
         "label-message": "رسالتك",
         "sd-button": "إرسال",
         "email-label": "البريد الإلكتروني",
-        "WhatsApp-label": "تواصل الآن",
+        "WhatsApp-label": "واتساب الان",
         "WhatsApp-message": "%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%20%F0%9F%91%8B%0A%D9%88%D8%AC%D8%AF%D8%AA%D9%83%20%D8%B9%D8%A8%D8%B1%20%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%83%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D9%88%D9%8A%D8%A8.",
         "linkedin-label": "ملفي الشخصي"
     },
     "footer": {
-        "title": "© 2026 ملف أعمال مصمم واجهات أمامية"
+        "title": "© 2026 ملف أعمال مطور واجهات أمامية"
     }
 }
